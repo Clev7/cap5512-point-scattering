@@ -1,11 +1,11 @@
 Experiment ID                :numbermatch
 Problem Type                 :NM
-Data Input File Name         :indata.NM.txt
-Number of Runs               :3
+Data Input File Name         :NA
+Number of Runs               :10
 Generations per Run          :100
 Population Size              :100
 Selection Method (1)         :1
-Fitness Scaling Type (2)     :1
+Fitness Scaling Type (2)     :0
 Crossover Type (3)           :1
 Crossover Rate (4)           :1.0
 Mutation Type (5)            :1
