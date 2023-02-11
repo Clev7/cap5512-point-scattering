@@ -17,7 +17,7 @@ public class PointScatteringRep3 extends FitnessFunction {
     public void doRawFitness(Chromo chromo) {
         double maxDist = -1;
 
-        for (int i = 0; i < Parameters.numGenes; i += 2) {
+        for (int i = 0; i < Parameters.numGenes - 2; i += 2) {
             double r_i = chromo.getPosIntGeneValue(i) / 1e6;
             int theta_i = chromo.getPosIntGeneValue(i + 1) % 360;
 

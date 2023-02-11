@@ -23,7 +23,7 @@ public class PointScatteringRep1 extends FitnessFunction {
             for (int j = i + 2; j < Parameters.numGenes; j += 2) {
                 double[] p_j = new double[]{chromo.getPosIntGeneValue(j) / 1e6, chromo.getPosIntGeneValue(j + 1) / 1e6};
 
-                System.out.println("DEBUG: p_i: " + p_i[0] + " " + p_i[1] + " p_j: " + p_j[0] + " " + p_j[1] + " dist: " + dist(p_i, p_j));
+                // System.out.println("DEBUG: p_i: " + p_i[0] + " " + p_i[1] + " p_j: " + p_j[0] + " " + p_j[1] + " dist: " + dist(p_i, p_j));
 
                 minDist = Math.min(minDist, dist(p_i, p_j));
             }
