@@ -92,12 +92,21 @@ public class Search {
 	//	Problem Specific Setup - For new new fitness function problems, create
 	//	the appropriate class file (extending FitnessFunction.java) and add
 	//	an else_if block below to instantiate the problem.
+
+		System.out.println("Parameters.problemType: " + Parameters.problemType);
  
 		if (Parameters.problemType.equals("NM")){
-				problem = new NumberMatch();
+			problem = new NumberMatch();
 		}
 		else if (Parameters.problemType.equals("OM")){
-				problem = new OneMax();
+			problem = new OneMax();
+		} else if (Parameters.problemType.equals("PS1")) {
+			problem = new PointScatteringRep1();
+		} else if (Parameters.problemType.equals("PS2")) {
+			// TODO
+			// problem = new PointScatteringRep2();
+		} else if (Parameters.problemType.equals("PS3")) {
+			problem = new PointScatteringRep3();
 		}
 		else System.out.println("Invalid Problem Type");
 
