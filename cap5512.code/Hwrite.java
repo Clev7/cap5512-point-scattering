@@ -10,7 +10,7 @@
 *  justify, left justify or center the data value within the specified field and
 *  send the final string to output file.  For double values, the programmer
 *  can optionally specify the number of decimal places to output.  Digits
-*  occuring after the number specified are rounded off.  Values that do not fit
+*  occuring after the numberr specified are rounded off.  Values that do not fit
 *  within the specified field length will be replaced by #### symbols.
 *
 *******************************************************************************/
