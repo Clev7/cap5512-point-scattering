@@ -1,5 +1,5 @@
-Experiment ID                :pointscattering1
-Problem Type                 :PS1
+Experiment ID                :pointscattering3
+Problem Type                 :PS3
 Data Input File Name         :NA
 Number of Runs               :10
 Generations per Run          :100
@@ -11,8 +11,8 @@ Crossover Rate (4)           :1.0
 Mutation Type (5)            :1
 Mutation Rate (6)            :.01
 Random Number Seed           :75982
-Number of Genes/Points (7)   :50
-Size of Genes (18)           :9
+Number of Genes/Points (7)   :20
+Size of Genes (18)           :20
 
 Notes:
 
