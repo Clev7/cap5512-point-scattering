@@ -215,7 +215,6 @@ public class Search {
 							(Parameters.popSize-1)
 							);
 
-				System.out.println("Generation " + G + " over!");
 				// Output generation statistics to screen
 				System.out.println(R + "\t" + G +  "\t" + (int)bestOfGenChromo.rawFitness + "\t" + averageRawFitness + "\t" + stdevRawFitness);
 
@@ -373,7 +372,6 @@ public class Search {
 
 		problem.doPrintGenes(bestOverAllChromo, summaryOutput);
 
-		System.out.println("\n\n\n\n\nWe done?");
 		//	Output Fitness Statistics matrix
 		summaryOutput.write("Gen                 AvgFit              BestFit \n");
 		for (int i=0; i<Parameters.generations; i++){
