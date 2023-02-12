@@ -103,8 +103,7 @@ public class Search {
 		} else if (Parameters.problemType.equals("PS1")) {
 			problem = new PointScatteringRep1();
 		} else if (Parameters.problemType.equals("PS2")) {
-			// TODO
-			// problem = new PointScatteringRep2();
+			problem = new PointScatteringRep2();
 		} else if (Parameters.problemType.equals("PS3")) {
 			problem = new PointScatteringRep3();
 		}
